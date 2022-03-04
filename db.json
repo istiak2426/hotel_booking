@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "id": 0,
+      "name": "InterContinental Deluxe",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389569/Hotel%20booking/a_z5dhfe.jpg",
+      "category": "business",
+      "description": "1 king bed. This double room has a tea/coffee maker, fireplace and tumble dryer.",
+      "left": "3",
+      "charge":"1000"
+    },
+    {
+      "id": 1,
+      "name": " King Deluxe",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389569/Hotel%20booking/b_z4xz0e.jpg",
+      "category": "business",
+      "description": "1 king bed. This double room has a tea/coffee maker, fireplace and tumble dryer.",
+      "left": "0",
+      "charge":"1500"
+    },
+    {
+      "id": 2,
+      "name": "Deluxe Twin",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389570/Hotel%20booking/c_fenzmb.jpg",
+      "category": "business",
+      "description": "2 twin beds. This twin room has a fireplace, air conditioning and private entrance.",
+      "left": "3",
+      "charge":"1800"
+    },
+    {
+      "id": 3,
+      "name": "Executive King",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389579/Hotel%20booking/d_nppuxa.jpg",
+      "category": "Standard",
+      "description": "1 king bed. 1 king bed. This double room features a bathrobe, sofa and mini-bar with an extra window or sunshine.",
+      "left": "3",
+      "charge":"1000"
+    },
+    {
+      "id": 4,
+      "name": "One Bedroom Deluxe Suite",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389571/Hotel%20booking/e_wpbker.jpg",
+      "category": "standard",
+      "description": "1 king bed. This suite features a electric kettle, tumble dryer and flat-screen TV.",
+      "left": "3",
+      "charge":"1200"
+    },
+    {
+      "id": 5,
+      "name": "Presidential Suite",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389575/Hotel%20booking/f_v2x0yn.jpg",
+      "category": "vip",
+      "description": "1 king bed. This suite features a bathrobe, air conditioning and view.",
+      "left": "3",
+      "charge":"2500"
+    },
+    {
+      "id": 6,
+      "name": "Presidential Suite Deluxe",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389570/Hotel%20booking/g_pszkxi.jpg",
+      "category": "vip",
+      "description": "2 king bed. This suite features a bathrobe, air conditioning and view.",
+      "left": "3",
+      "charge":"2200"
+    },
+    {
+      "id": 7,
+      "name": "Presidential Suite King",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389571/Hotel%20booking/h_awb4vn.jpg",
+      "category": "vip",
+      "description": "2 king bed. This suite features a bathrobe, air conditioning and view.",
+      "left": "3",
+      "charge":"2800"
+    },
+        {
+      "id": 8,
+      "name": "Presidential Suite King deluxe",
+      "image": "https://res.cloudinary.com/istiak2426/image/upload/v1646389570/Hotel%20booking/j_tzbeml.jpg",
+      "category": "vip",
+      "description": "2 king bed. This suite features a bathrobe, air conditioning and view.",
+      "left": "0",
+      "charge":"3000"
+    }
+  ]
+}
