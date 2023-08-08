@@ -66,20 +66,24 @@ class Menu extends Component {
         this.props.fetchRooms();
 
         
-        const devEnv = process.env.NODE_ENV !== "production";
-        const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
     
-        axios.get(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}/rooms`)
-		.then(response=> response.data)
-		.then(data => this.setState({
-			allItem: data
-		}))
 
-		axios.get(`${devEnv ? REACT_APP_DEV_URL : REACT_APP_PROD_URL}/rooms`)
+    
+        axios.get("https://hotelbooking-json.onrender.com")
 		.then(response=> response.data)
-		.then(data => this.setState({
-			filterItem: data
-		}))
+		.then(data => 
+
+            this.setState({allItem: data})
+            
+            )
+
+		axios.get("https://hotelbooking-json.onrender.com")
+		.then(response=> response.data)
+		.then(data => 
+
+            this.setState({filterItem: data}) 
+            
+            )
     }
 
     render() {
